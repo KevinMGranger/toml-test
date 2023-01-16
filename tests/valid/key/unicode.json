@@ -1,0 +1,10 @@
+{
+  "€": {
+    "type": "string",
+    "value": "Euro"
+  },
+  "🏴‍☠️": {
+    "type": "string",
+    "value": "Pirate"
+  }
+}

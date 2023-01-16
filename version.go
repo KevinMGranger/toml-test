@@ -10,6 +10,7 @@ var versions = map[string]versionSpec{
 		exclude: []string{
 			"invalid/datetime/no-secs",          // Times without seconds is no longer invalid.
 			"invalid/string/basic-byte-escapes", // \x is now valid.
+			"invalid/key/special-character",     // Unicode can now be in bare keys.
 		},
 	},
 
@@ -18,6 +19,7 @@ var versions = map[string]versionSpec{
 			"valid/string/escape-esc",                               // \e
 			"valid/string/hex-escape", "invalid/string/bad-hex-esc", // \x..
 			"valid/datetime/no-seconds", // Times without seconds
+			"valid/key/unicode",         // Unicode bare keys
 		},
 	},
 
